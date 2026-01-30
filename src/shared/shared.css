@@ -1,0 +1,25 @@
+/* ACTION BUTTON */
+.action-button {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  background-color: #f97316; /* secondary-500 */
+  color: #000;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #2563eb; /* primary-500 */
+  color: #ffffff;
+}
+
+/* HEADING TEXT */
+.heading-text {
+  flex-basis: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem; /* 30px */
+  font-weight: 700;
+  line-height: 1.3;
+}

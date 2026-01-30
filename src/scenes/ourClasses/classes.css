@@ -1,0 +1,101 @@
+/* SECTION */
+.classes-section {
+  width: 100%;
+  background-color:#f2a2f1; /* primary-100 */
+  padding: 10rem 0;
+}
+
+/* HEADER */
+.classes-header {
+  width: 83%;
+  margin: 0 auto;
+}
+
+.classes-text {
+  max-width: 60%;
+}
+
+.classes-text p {
+  padding: 1.25rem 0;
+  line-height: 1.6;
+}
+
+/* SCROLL AREA */
+.classes-scroll {
+  margin-top: 2.5rem;
+  height: 353px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.classes-list {
+  width: 2800px;
+  white-space: nowrap;
+  padding-left: 1rem;
+}
+
+/* CLASS ITEM */
+.class-item {
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  height: 380px;
+  margin: 0 1.25rem;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.class-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY */
+.class-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e0000; /* primary-500 */
+  color: #ffffff;
+  text-align: center;
+  padding: 1.25rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.class-item:hover .class-overlay {
+  opacity: 0.9;
+}
+
+/* TEXT */
+.class-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.class-description {
+  margin-top: 1.25rem;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1060px) {
+  .classes-text {
+    max-width: 100%;
+  }
+
+  .class-item {
+    width: 320px;
+    height: 300px;
+  }
+
+  .classes-list {
+    width: max-content;
+  }
+}

@@ -1,0 +1,63 @@
+/* FOOTER */
+.footer {
+  background-color: #f2a2f1; /* primary-100 */
+  padding: 4rem 0;
+}
+
+/* CONTAINER */
+.footer-container {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  gap: 4rem;
+}
+
+/* SECTIONS */
+.footer-about {
+  flex: 2;
+}
+
+.footer-links,
+.footer-contact {
+  flex: 1;
+}
+
+/* LOGO */
+.footer-logo {
+  max-width: 160px;
+}
+
+/* TEXT */
+.footer-text {
+  margin: 1.25rem 0;
+  line-height: 1.6;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+}
+
+/* TITLES */
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+/* LINKS SPACING */
+.footer-links p,
+.footer-contact p {
+  margin-bottom: 1.25rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-contact {
+    margin-top: 2rem;
+  }
+}
