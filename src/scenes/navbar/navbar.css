@@ -60,14 +60,20 @@
   color: #5e0000;
   cursor: pointer;
   transition: color 0.3s ease;
+  text-decoration: none;
+  border-bottom: none;
 }
 
-.nav-link:hover {
-  color: #f97316;
+.nav-link-active {
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .nav-link-active {
   color: #5e0000;
+}
+.navbar a {
+  text-decoration: none;
 }
 
 

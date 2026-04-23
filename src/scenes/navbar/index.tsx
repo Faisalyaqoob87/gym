@@ -39,7 +39,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 </div>
 
                 <div className="navbar-actions">
-                  <p className="navbar-signin">Sign In</p>
+                  {/* <p className="navbar-signin">Sign In</p> */}
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Become a Member
                   </ActionButton>
