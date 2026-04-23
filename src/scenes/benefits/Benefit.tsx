@@ -10,7 +10,7 @@ const childVariant = {
 };
 
 type Props = {
-  icon:React.ReactNode; 
+  icon: React.ReactNode;
   title: string;
   description: string;
   setSelectedPage: (value: SelectedPage) => void;

@@ -28,7 +28,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
-        {/* HEADER */}
+
         <motion.div
           className="contact-header"
           initial="hidden"
@@ -50,9 +50,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-        {/* FORM + IMAGE */}
+
         <div className="contact-content">
-          {/* FORM */}
+
           <motion.div
             className="contact-form-wrapper"
             initial="hidden"
@@ -121,7 +121,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             </form>
           </motion.div>
 
-          {/* IMAGE */}
+
           <motion.div
             className="contact-image-wrapper"
             initial="hidden"

@@ -11,7 +11,7 @@ import Class from "./Class";
 import "./classes.css";
 
 const classes: Array<ClassType> = [
- {
+  {
     name: "Weight Training Classes",
     description:
       "Build strength, sculpt your body, and boost your confidence with our weight training classes. Led by certified trainers, each session is designed to help you lift safely, maximize results, and track your progress. Whether you’re a beginner or an experienced lifter, our classes focus on proper form, effective techniques, and progressive workouts that challenge you while keeping fitness fun. Get stronger, feel empowered, and see the results you’ve been working for!",
@@ -37,7 +37,7 @@ const classes: Array<ClassType> = [
   },
   {
     name: "Fitness Classes",
-      description:
+    description:
       "Elevate your workout with our dynamic Fitness Classes! Designed for all levels, these sessions combine cardio, strength, and functional training to help you burn calories, build muscle, and boost energy. Led by certified instructors, each class keeps you motivated, challenged, and having fun while working toward your fitness goals. From group workouts to high-intensity sessions.",
     image: image5,
   },
@@ -59,7 +59,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
       >
-        {/* HEADER */}
+
         <motion.div
           className="classes-header"
           initial="hidden"
@@ -79,7 +79,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           </div>
         </motion.div>
 
-        {/* SCROLLER */}
+
         <div className="classes-scroll">
           <ul className="classes-list">
             {classes.map((item, index) => (

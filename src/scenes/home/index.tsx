@@ -19,12 +19,12 @@ const Home = ({ setSelectedPage }: Props) => {
 
   return (
     <section id="home" className="home-section">
-      {/* HERO */}
+
       <motion.div
         className="home-container"
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
       >
-        {/* TEXT */}
+
         <div className="home-text">
           <motion.div
             initial="hidden"
@@ -47,7 +47,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </p>
           </motion.div>
 
-          {/* ACTIONS */}
+
           <motion.div
             className="home-actions"
             initial="hidden"
@@ -73,13 +73,11 @@ const Home = ({ setSelectedPage }: Props) => {
           </motion.div>
         </div>
 
-        {/* IMAGE */}
         <div className="home-image-wrapper">
           <img alt="home-pageGraphic" src={HomePageGraphic} />
         </div>
       </motion.div>
 
-      {/* SPONSORS */}
       {isAboveMediumScreens && (
         <div className="home-sponsors">
           <div className="home-sponsors-container">

@@ -20,16 +20,15 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   return (
     <nav>
       <div
-        className={`navbar ${
-          !isTopOfPage ? "navbar-scrolled" : ""
-        }`}
+        className={`navbar ${!isTopOfPage ? "navbar-scrolled" : ""
+          }`}
       >
         <div className="navbar-container">
           <div className="navbar-inner">
-            {/* LOGO */}
+
             <img className="navbar-logo" alt="logo" src={Logo} />
 
-            {/* DESKTOP */}
+
             {isAboveMediumScreens ? (
               <div className="navbar-desktop">
                 <div className="navbar-links">
@@ -47,7 +46,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 </div>
               </div>
             ) : (
-              /* MOBILE TOGGLE */
+
               <button
                 className="navbar-toggle"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
@@ -59,7 +58,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         </div>
       </div>
 
-      {/* MOBILE MENU */}
+
       {!isAboveMediumScreens && isMenuToggled && (
         <div className="mobile-menu">
           <div className="mobile-menu-close">

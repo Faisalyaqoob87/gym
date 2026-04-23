@@ -1,10 +1,9 @@
-/* SECTION */
 .home-section {
-  background-color: #f3f4f6; /* gray-20 */
+  background-color: #f3f4f6;
   padding: 2.5rem 0;
 }
 
-/* MAIN CONTAINER */
+
 .home-container {
   width: 83%;
   margin: 0 auto;
@@ -15,7 +14,7 @@
   min-height: 85vh;
 }
 
-/* TEXT */
+
 .home-text {
   flex: 3;
   margin-top: 8rem;
@@ -32,7 +31,6 @@
   line-height: 1.6;
 }
 
-/* ACTIONS */
 .home-actions {
   margin-top: 2rem;
   display: flex;
@@ -43,16 +41,16 @@
 .home-link {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #5e0000; /* primary-500 */
+  color: #5e0000;
   text-decoration: underline;
   cursor: pointer;
 }
 
 .home-link:hover {
-  color: #a855f7; /* secondary-500 */
+  color: #a855f7;
 }
 
-/* IMAGE */
+
 .home-image-wrapper {
   flex: 3;
   display: flex;
@@ -66,9 +64,9 @@
   max-width: 100%;
 }
 
-/* SPONSORS */
+
 .home-sponsors {
-  background-color: #f2a2f1; /* primary-100 */
+  background-color: #f2a2f1;
   padding: 2.5rem 0;
   height: 150px;
 }
@@ -83,7 +81,7 @@
   max-width: 60%;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 1060px) {
   .home-container {
     flex-direction: column;

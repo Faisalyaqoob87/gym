@@ -1,6 +1,5 @@
-/* NAVBAR */
 .navbar {
-background-color: #f2a2f1;
+  background-color: #f2a2f1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,11 +9,11 @@ background-color: #f2a2f1;
 }
 
 .navbar-scrolled {
-  background-color: #f2a2f1; /* primary-100 */
+  background-color: #f2a2f1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* CONTAINER */
+
 .navbar-container {
   width: 83%;
   margin: 0 auto;
@@ -27,12 +26,12 @@ background-color: #f2a2f1;
   gap: 4rem;
 }
 
-/* LOGO */
+
 .navbar-logo {
   max-width: 150px;
 }
 
-/* DESKTOP */
+
 .navbar-desktop {
   display: flex;
   align-items: center;
@@ -56,7 +55,7 @@ background-color: #f2a2f1;
   cursor: pointer;
 }
 
-/* LINKS */
+
 .nav-link {
   color: #5e0000;
   cursor: pointer;
@@ -64,16 +63,16 @@ background-color: #f2a2f1;
 }
 
 .nav-link:hover {
-  color: #f97316; /* primary-300 */
+  color: #f97316;
 }
 
 .nav-link-active {
-  color: #5e0000; /* primary-500 */
+  color: #5e0000;
 }
 
-/* TOGGLE */
+
 .navbar-toggle {
-  background-color: #a855f7; /* secondary-500 */
+  background-color: #a855f7;
   border-radius: 50%;
   padding: 0.5rem;
   border: none;
@@ -86,7 +85,7 @@ background-color: #f2a2f1;
   color: #ffffff;
 }
 
-/* MOBILE MENU */
+
 .mobile-menu {
   position: fixed;
   right: 0;
@@ -110,7 +109,7 @@ background-color: #f2a2f1;
   color: #9ca3af;
 }
 
-/* MOBILE LINKS */
+
 .mobile-menu-links {
   margin-left: 33%;
   display: flex;
@@ -119,7 +118,7 @@ background-color: #f2a2f1;
   font-size: 1.5rem;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 1060px) {
   .navbar-desktop {
     display: none;

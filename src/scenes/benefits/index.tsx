@@ -12,20 +12,20 @@ import Benefit from "./Benefit";
 import "./benefits.css";
 
 const benefits: Array<BenefitType> = [
- {
-    icon: <HomeModernIcon className="h-6 w-6" />,
+  {
+    icon: <HomeModernIcon style={{ width: 24, height: 24 }} />,
     title: "State of the Art Facilities",
     description:
       "Experience a gym built for results. Our world-class studios feature cutting-edge equipment, innovative workout zones, and expert guidance to make every session effective and enjoyable. Whether you’re here to build strength, improve endurance, or transform your body, we provide everything you need to succeed.",
   },
   {
-    icon: <UserGroupIcon className="h-6 w-6" />,
+    icon: <UserGroupIcon style={{ width: 24, height: 24 }}/>,
     title: "100's of Diverse Classes",
     description:
       "Explore a wide variety of classes designed to suit every fitness level and goal. From high-intensity cardio and strength training to calming yoga and flexibility sessions, we have something for everyone. Our expert instructors ensure each class is effective, fun, and motivating, helping you stay consistent and reach your fitness goals faster.",
   },
   {
-    icon: <AcademicCapIcon className="h-6 w-6" />,
+    icon: <AcademicCapIcon style={{ width: 24, height: 24 }}/>,
     title: "Expert and Pro Trainers",
     description:
       "Train with the best! Our certified trainers bring years of experience, knowledge, and motivation to every session. Whether you’re a beginner or an advanced athlete, they provide personalized guidance, ensure proper form, and create workouts tailored to your goals. With our expert team by your side, every session is safe, effective, and designed to help you achieve real results.",
@@ -47,7 +47,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
   return (
     <section id="benefits" className="benefits-section">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}>
-        {/* HEADER */}
+
         <motion.div
           className="benefits-header"
           initial="hidden"
@@ -67,7 +67,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-        {/* BENEFIT CARDS */}
+
         <motion.div
           className="benefits-grid"
           initial="hidden"
@@ -86,7 +86,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           ))}
         </motion.div>
 
-        {/* GRAPHIC + TEXT */}
+
         <div className="benefits-content">
           <img
             className="benefits-image"
@@ -122,7 +122,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-               Our community of fitness enthusiasts is growing every day, with millions of members achieving their goals, building strength, and transforming their lives. Whether you’re starting your fitness journey or pushing toward new personal bests, we’re here to support you every step of the way. Get fit, stay motivated, and become part of a community that celebrates every victory—big or small.
+              Our community of fitness enthusiasts is growing every day, with millions of members achieving their goals, building strength, and transforming their lives. Whether you’re starting your fitness journey or pushing toward new personal bests, we’re here to support you every step of the way. Get fit, stay motivated, and become part of a community that celebrates every victory—big or small.
             </motion.p>
 
             <div className="benefits-button">
